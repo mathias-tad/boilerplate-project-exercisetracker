@@ -1,0 +1,32 @@
+{
+  "name": "boilerplate-project-exercisetracker",
+  "version": "1.0.0",
+  "description": "This is a boilerplate project developed on the behalf of getting a certificate for backing development and apis from freeCodeCamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathias-tad/boilerplate-project-exercisetracker.git"
+  },
+  "keywords": [],
+  "author": "Mathias Bekele",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mathias-tad/boilerplate-project-exercisetracker/issues"
+  },
+  "homepage": "https://github.com/mathias-tad/boilerplate-project-exercisetracker#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
