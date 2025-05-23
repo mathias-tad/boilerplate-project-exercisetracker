@@ -47,6 +47,13 @@ app.use(bodyPsrser.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
+  // async function f() {
+  //   await Log.deleteMany();
+  //   await User.deleteMany();
+  //   await Exercise.deleteMany();
+  //   console.log("all cleared");
+  // }
+  // f();
   res.sendFile(`${process.cwd()}/views/index.html`);
 });
 
